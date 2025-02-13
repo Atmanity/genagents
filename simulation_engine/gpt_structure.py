@@ -3,7 +3,7 @@ import time
 import base64
 from typing import List, Union
 
-from simulation_engine.settings import *
+from .settings import *
 
 openai.api_key = OPENAI_API_KEY
 
