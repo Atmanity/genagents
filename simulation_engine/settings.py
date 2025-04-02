@@ -4,7 +4,7 @@ from pathlib import Path
 from behavior_module.utils import config
 
 OPENAI_API_KEY = os.getenv(
-            "OPENAI_API_KEY") if not config.estimators.speech.api_key else config.estimators.speech.api_key
+            "OPENAI_API_KEY") if not config.speech_generator.api_key else config.speech_generator.api_key
 KEY_OWNER = "atmanity"
 
 
