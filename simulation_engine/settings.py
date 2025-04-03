@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-from behavior_module.utils import config
+from behavior_module.behavior_module.utils import config
 
 OPENAI_API_KEY = os.getenv(
             "OPENAI_API_KEY") if not config.speech_generator.api_key else config.speech_generator.api_key
