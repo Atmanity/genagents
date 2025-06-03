@@ -1,10 +1,7 @@
 import os
 from pathlib import Path
 
-from ...utils import config
-
-OPENAI_API_KEY = os.getenv(
-            "OPENAI_API_KEY") if not config.speech_generator.api_key else config.speech_generator.api_key
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 KEY_OWNER = "atmanity"
 
 
